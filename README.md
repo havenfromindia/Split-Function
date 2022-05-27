@@ -13,11 +13,5 @@ print(unlimited)
 # enter the values for the list : 34 23 liquid gwen
 # ['34', '23', 'liquid', 'gwen']
 
-# ****************************-----split() vs split(",")----------**************************************
-
-unlimitedvs = input('enter the values for the list : ').split(",")
-print(unlimitedvs)
-# ['34 23 liquid gwen']
-
 # *************************************************************************************************************
 
