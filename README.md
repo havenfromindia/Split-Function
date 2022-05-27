@@ -17,3 +17,8 @@ print(a, b)
 # enter 2 values : we build,none
 # we build none
 
+# here spaces wont be recognised as seperators
+x, y, z = input('enter 3 values : ').split(",")
+print(x, y, z)
+# enter 3 values : we, build ,the      world 
+# we  build  the      world 
