@@ -14,4 +14,5 @@ print(unlimited)
 # ['34', '23', 'liquid', 'gwen']
 
 # *************************************************************************************************************
-
+# if only a single variable is provided then the single variable can store more than 1 value.
+# if more than 2 variables are given, only a single value will be assigned to 1 variable based on seperator.
