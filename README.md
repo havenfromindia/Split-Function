@@ -58,3 +58,12 @@ for i in unknown:
 # miles
 # gwen    
 
+# 1 or more white space will be the seperator if no other seperators aren't mentioned
+x, y = input("Enter 2 values: ").split()
+print("x is", x)
+print("y is", y)
+print(x, y)
+# Enter 2 values: we           build
+# x is we
+# y is build
+# we build
