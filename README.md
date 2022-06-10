@@ -33,3 +33,8 @@ simple = "we will do this now itself"
 print(simple.strip("we will now "))
 # do this now itself
 # it print now because 'now' is not a character from start or end but from midle
+
+simple = "# we will do this now "
+print(simple.strip("we will > now yu # $ % "))
+# used to remove unneccisary items
+
