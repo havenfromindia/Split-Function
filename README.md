@@ -41,4 +41,5 @@ print(simple.strip("we will > now yu # $ % "))
 # if it is inside another single or double cord it won't consider anything inside it.
 word = 'the king live in akrabad "the place of glory"'
 print(word.strip('the'))
+#  king live in akrabad "the place of glory"
 
