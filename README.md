@@ -38,3 +38,7 @@ simple = "# we will do this now "
 print(simple.strip("we will > now yu # $ % "))
 # used to remove unneccisary items
 
+# if it is inside another single or double cord it won't consider anything inside it.
+word = 'the king live in akrabad "the place of glory"'
+print(word.strip('the'))
+
